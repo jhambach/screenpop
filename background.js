@@ -21,7 +21,7 @@ if (window.Notification) {
             if (items.ns_server != "" && items.ns_username != "") {
                 clearTimeout(myWaitTimeout);
                 configuration = {
-                    "clientName": "NetSapiens Chrome Extension", 
+                    "clientName": "Snapcom C2C Extension", 
                     "clientId": "<CLINET_ID>",
                     "clientSecret": "<CLINET_SECRET>", 
                     "server": items.ns_server,
